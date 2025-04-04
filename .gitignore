@@ -1,0 +1,67 @@
+# .gitignore for Windows DNS to Pi-hole Sync Script
+
+# --- Sensitive Configuration ---
+# NEVER commit your .env file containing secrets!
+.env
+
+# --- Python ---
+# Virtual environment folders
+venv/
+.venv/
+env/
+ENV/
+*/env/
+*/venv/
+*/.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+wheels/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# IPython Notebook checkpoints
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# --- IDE / Editor Files ---
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# --- Operating System Files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Logs ---
+# Ignore log files if generated locally
+*.log
+logs/

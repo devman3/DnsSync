@@ -1,0 +1,5 @@
+# requirements.txt for Windows DNS to Pi-hole Sync Script
+
+pypsrp>=0.8.0   # For Windows PowerShell Remoting
+paramiko>=2.7.0 # For SSH/SCP communication with Pi-hole
+python-dotenv>=0.15.0 # For loading configuration from .env file
